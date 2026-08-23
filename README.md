@@ -53,5 +53,5 @@ Category-wise breakdown:
 - Add monthly/weekly filtering
 - Export summary as PDF report
 
-## Author
-<Your Name>
+
+<Ayush Saxena>
