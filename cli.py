@@ -80,8 +80,11 @@ def print_menu() -> None:
     print("5. Exit")
 
 
-def run() -> None:
-    repo = ExpenseRepository()
+def run(repo: ExpenseRepository = None) -> None:
+    """Runs the interactive menu loop. Accepts any repository that
+    implements add/get_all/clear_all — CSV or SQLite — defaulting to CSV."""
+    if repo is None:
+        repo = ExpenseRepository()
 
     actions = {
         "1": prompt_add_expense,
