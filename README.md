@@ -3,7 +3,7 @@
 A command-line expense tracker built with a layered architecture: data model,
 persistence, business logic, and UI are cleanly separated, making the core
 logic independently unit-testable.
-
+<Author-AyushSaxena>
 ## Architecture
 
 ```
